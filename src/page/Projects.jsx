@@ -1,32 +1,23 @@
 import React from "react";
 import "../css/Projects.css";
 
-import thegrovela from "../../public/1.jpeg";
-import generalmills from "../../public/2.jpeg";
-import ForollyFood from "../../public/3.png";
-import AWCIndia from "../../public/4.png";
-
-
-
-
 const projectData = [
   {
     title: "Thegrovela",
-    img: thegrovela,
+    img: "/1.jpeg",
   },
   {
     title: "Generalmills",
-    img: generalmills,
+    img: "/2.jpeg",
   },
-    {
+  {
     title: "ForollyFood",
-    img: ForollyFood,
+    img: "/3.png",
   },
-    {
+  {
     title: "AWCIndia",
-    img: AWCIndia,
+    img: "/4.png",
   },
-
 ];
 
 const Projects = () => {
@@ -41,7 +32,6 @@ const Projects = () => {
           <div className="project-card" key={index}>
             <img src={project.img} alt={project.title} />
 
-            {/* Overlay */}
             <div className="overlay">
               <h3>{project.title}</h3>
             </div>
