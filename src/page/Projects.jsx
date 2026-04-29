@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Projects.css";
+import "../css/Projects.css";
 
 import thegrovela from "../../public/1.jpeg";
 import generalmills from "../../public/2.jpeg";
